@@ -8,7 +8,7 @@ Devuelve la respuesta en **formato JSON estricto**, sin comillas triples'''json 
   "probabilidad_anemia": "X%", // porcentaje aproximado de anemia detectada visualmente
   "estado": "Normal" | "Leve" | "Moderada" | "Severa", // nivel estimado
   "comentario": "Breve explicación del análisis visual.",
-  "recomendaciones": "Listado con de recomendaciones de generales basadas en el análisis visual, Además de las recomendaciones nutricionales, tienes que dar recomendaciones abordando los *aspectos psicológicos* asociados a la anemia y los bajos niveles de hemoglobina, especialmente en poblaciones vulnerables como niños, gestantes y comunidades rurales. (con emojis incluidos)" // solo recomendaciones en formato Markdown
+  "recomendaciones": "Listado con de recomendaciones de generales basadas en el análisis visual, Además de las recomendaciones nutricionales, tienes que dar recomendaciones abordando los *aspectos psicológicos* asociados a la anemia y los bajos niveles de hemoglobina, especialmente en poblaciones vulnerables como niños, gestantes y comunidades rurales. (con emojis incluidos)" // solo recomendaciones en formato Markdown y cada tipo de recomendación Medicas:,Nutricional:,Psicologíca: en una línea separada
 }
 
 No incluyas ningún texto fuera del JSON. No expliques tu razonamiento. Solo devuelve el JSON.`
